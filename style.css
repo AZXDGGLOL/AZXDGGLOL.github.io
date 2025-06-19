@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        .profile-card img {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .profile-card h1 {
+            margin: 15px 0 5px;
+        }
+
+        .profile-card p {
+            color: #666;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
