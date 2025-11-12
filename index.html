@@ -1,28 +1,135 @@
-<!DOCTYPE html>
+<!-- index.html -->
+<!doctype html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <title>Profile</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — ชื่อคุณ</title>
+  <meta name="description" content="Portfolio นักศึกษา | GitHub Pages" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="container">
+    <header>
+      <div class="avatar">คุณ</div>
+      <div>
+        <h1>ชื่อ นามสกุล (ภาษาไทย / English)</h1>
+        <p class="lead">คณะ/สาขา • ปีการศึกษา • ความสนใจ: AI, Web Dev, Data Science</p>
+        <nav>
+          <a href="#about">เกี่ยวกับ</a>
+          <a href="#skills">ทักษะ</a>
+          <a href="#projects">ผลงาน</a>
+          <a href="#education">การศึกษา</a>
+          <a href="#activities">กิจกรรม</a>
+          <a href="#contact">ติดต่อ</a>
+        </nav>
+      </div>
+    </header>
 
-    <div class="profile-card">
-        <img src="me.jpg" alt="รูปของฉัน">
-        <h1>อนันตสิทธิ์ สิงห์ชา</h1>
-        <p>นักศึกษาวิทยาการคอมพิวเตอร์ | มหาวิทยาลัยราชภัฏอุดรธานี</p>
+    <main class="grid">
+      <section class="main card">
+        <article id="about">
+          <h2>1. แนะนำตัว (Introduction / Profile)</h2>
+          <p class="muted">สรุปสั้นๆ ว่าเป็นใคร สนใจด้านไหน เป้าหมาย/ตำแหน่งที่ต้องการในอนาคต</p>
+          <ul>
+            <li>ชื่อ-นามสกุล (ไทย/อังกฤษ)</li>
+            <li>คณะ / มหาวิทยาลัย / สาขา</li>
+            <li>ปีการศึกษา</li>
+            <li>ความสนใจเฉพาะทาง เช่น AI, Web, Cybersecurity, Data</li>
+          </ul>
+        </article>
 
-        <h3>เกี่ยวกับฉัน</h3>
-        <p>ฉันชอบเขียนโค้ด เล่นเกม และเรียนรู้สิ่งใหม่ๆ</p>
+        <article id="skills">
+          <h2>2. ทักษะ (Skills)</h2>
+          <div class="skills">
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">HTML/CSS, JavaScript</span>
+            <span class="chip">TensorFlow</span>
+            <span class="chip">scikit-learn</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Git</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">Figma</span>
+          </div>
+          <p class="muted">Soft skills: การสื่อสาร, ทำงานเป็นทีม, แก้ปัญหา</p>
+        </article>
 
-        <h3>ติดต่อ</h3>
-        <p>Email: archizombie12345@gmail.com</p>
+        <article id="projects">
+          <h2>3. ผลงานที่ผ่านม (Projects / Portfolio)</h2>
+          <div class="project">
+            <div class="project-header">
+              <div>
+                <strong>ระบบจองห้องประชุมออนไลน์</strong>
+                <div class="meta">Tech: HTML, CSS, JavaScript, PHP, MySQL</div>
+              </div>
+              <div class="stack">
+                <a class="tag" href="#">Repository</a>
+                <a class="tag" href="#">Demo</a>
+              </div>
+            </div>
+            <div class="screenshots">
+              <div class="simg">Screenshot 1</div>
+              <div class="simg">Screenshot 2</div>
+            </div>
+          </div>
 
-        <div class="social-links">
-            <a href="https://facebook.com/AZXD.DARKNESS.75" target="_blank">Facebook</a>
-            <a href="https://github.com/AZXDGGLOL" target="_blank">GitHub</a>
-        </div>
-    </div>
+          <div class="project">
+            <div class="project-header">
+              <div>
+                <strong>AI ทำนายโรคเบาหวาน (Data Project)</strong>
+                <div class="meta">Tech: Python, scikit-learn, Pandas</div>
+              </div>
+              <div class="stack">
+                <a class="tag" href="#">Repository</a>
+              </div>
+            </div>
+          </div>
+        </article>
 
+        <article id="education">
+          <h2>4. การศึกษา (Education)</h2>
+          <p class="muted">คณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ — มหาวิทยาลัยราชภัฏอุดรธานี (2566–ปัจจุบัน)</p>
+        </article>
+
+        <article id="activities">
+          <h2>5. กิจกรรมและผลงานอื่น ๆ (Activities / Achievements)</h2>
+          <ul>
+            <li>เข้างานอบรม "AI for Beginners by Microsoft"</li>
+            <li>เข้าร่วมแข่งขัน UDRU Hackathon 2025</li>
+            <li>ได้รับรางวัลโครงงาน IoT</li>
+          </ul>
+        </article>
+      </section>
+
+      <aside class="aside card">
+        <section id="contact">
+          <h2>6. ติดต่อ (Contact)</h2>
+          <div class="contact-list">
+            <div class="pill">Email: your.email@domain</div>
+            <div class="pill">GitHub: github.com/username</div>
+            <div class="pill">LinkedIn: linkedin.com/in/username</div>
+            <div class="pill">Portfolio: yourdomain.github.io</div>
+            <div class="pill">จังหวัด: จังหวัดของคุณ</div>
+          </div>
+        </section>
+
+        <section>
+          <h2>7. องค์ประกอบเสริม</h2>
+          <p class="muted">เป้าหมายในอนาคต / Career Interest</p>
+          <div class="stack">
+            <span class="tag">AI</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">Web Dev</span>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="muted">
+      <div>สร้างด้วย ❤️ — ปรับแต่งได้ตามต้องการ</div>
+    </footer>
+  </div>
 </body>
 </html>
